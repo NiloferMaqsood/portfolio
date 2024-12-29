@@ -377,7 +377,9 @@ ul {
 
 .home .home-img img {
     width: 100%;
-    object-fit: cover;
+    background-image: var(--profile-img);
+    background-size: cover;
+    background-position: center;
 }
 
 .home-img::after {
@@ -937,22 +939,23 @@ ul {
     cursor: pointer;
 }
 
+
 .style-switcher .color-1 {
-    background: #CDA200;
+    background: #955251;
 }
 
 .style-switcher .color-2 {
-    background: #28e1bf;
+    background: #D65076;
 }
 
 .style-switcher .color-3 {
-    background: royalblue;
+    background: #01C294;
 }
 
 .style-switcher .color-4 {
-    background: #ec1839;
+    background: #C37801;
 }
 
 .style-switcher .color-5 {
-    background: #f021e2;
+    background: #E11838;
 }
